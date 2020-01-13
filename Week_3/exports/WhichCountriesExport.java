@@ -91,9 +91,9 @@ public class WhichCountriesExport {
         FileResource fr = new FileResource();
         CSVParser parser = fr.getCSVParser();
         //System.out.println(CountryInfo(parser,"Germany"));
-        //listExportersTwoProducts(parser,"gold","diamonds");
-        //numberOfExporters(parser,"gold");
-        bigexporters(parser,"$400,000,000");
+        //listExportersTwoProducts(parser,"cotton","flowers");
+        //numberOfExporters(parser,"cocoa");
+        bigexporters(parser,"$999,999,999,999");
         
     }
     public void whoExportsCoffee() {
